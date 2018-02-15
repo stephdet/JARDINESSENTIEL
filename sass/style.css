@@ -1,0 +1,20 @@
+.paragraph {
+  font-size: 1.6rem;
+  color: #777; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem;
+   }
+
+/*MAIN COMPONENTS*/
+.header {
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+
+}
+
+.header_logo {
+  width: 250px;
+  height: 250px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+{
+  "name": "jardin",
+  "version": "1.0.0",
+  "description": "Landingpage for jardin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephdet/JARDINESSENTIEL.git"
+  },
+  "author": "Stephane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephdet/JARDINESSENTIEL/issues"
+  },
+  "homepage": "https://github.com/stephdet/JARDINESSENTIEL#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

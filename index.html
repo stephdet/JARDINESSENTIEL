@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardin Essentiel - jardin participatif </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+    <header class="header">
+        <div class="header__logobox">
+             <img src="img/JE_Logo.jpg"  alt="logo jardin essentiel" class="header_logo">
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Découvrer </span>
+                <span class="heading-secondary--sub">le jardin des plantes</span>
+            </h1>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+    <body>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script type="text/javascript">
+
+
+                var navTrigger = document.getElementById('nav-trigger');
+                var nav = document.getElementById('nav');
+                var header = document.getElementById('header');
+                var heading = document.getElementById('heading');
+                var labels = document.getElementsByClassName('nav-label');
+                
+                // sizing
+                var windowHeight = window.innerHeight;
+                var windowWidth = window.innerWidth;
+                var fontSize = windowHeight*0.1;
+                var headingSize = windowWidth*0.1;
+                
+                // Event Listening
+                navTrigger.addEventListener('click', navToggle);
+                window.addEventListener('resize', resize);
+                
+                function resize() {
+                  windowHeight = window.innerHeight;
+                  windowWidth = window.innerWidth;
+                  fontSize = windowHeight*0.1;
+                  headingSize = windowWidth*0.1;
+                  if(headingSize > windowHeight*0.3) headingSize = windowHeight*0.3;
+                
+                  for(var i = 0; i < labels.length; i++) {
+                    labels[i].style.fontSize = fontSize*0.4+'px';
+                    labels[i].style.height = fontSize+'px';
+                    labels[i].style.marginTop = '-'+fontSize*0.6+'px';
+                  }
+                
+                  header.style.height = windowHeight+'px';
+                  heading.style.fontSize = headingSize+'px';
+                  heading.style.height = headingSize+'px';
+                  heading.style.marginTop = '-'+headingSize*0.6+'px';
+                
+                }
+                
+                function navToggle(e) {
+                  var closed = (navTrigger.className.indexOf('close') > 0);
+                  if(closed) {
+                    navTrigger.className = 'nav-trigger open';
+                    nav.className = 'out';
+                  } else {
+                    navTrigger.className = 'nav-trigger close';
+                    nav.className = 'in';
+                  }
+                }
+                
+                window.onload = resize;
+                
+                </script>
+                
+</body>
+</html>
