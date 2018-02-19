@@ -1,0 +1,16 @@
+.btn-text:link,
+.btn-text:visited {
+    display: inline-block;
+    color: $color-white;
+    font-size: $default-font-size;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    margin-top: 1.2rem;
+}
+
+.btn-text:hover {
+    display: inline-block;
+    color: $color-white;
+    font-size: $default-font-size;
+    font-weight: 700;
+}
