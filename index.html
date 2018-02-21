@@ -6,34 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jardin Essentiel - jardin participatif </title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation_button">Menu
+        </label>
+        <div class="navigation_background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Le projet</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">L'équipe</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Agenda</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Contact</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
 
     <header class="header">
         <div class="header__logobox">
             <img src="img/JE_Logo.jpg" alt="logo jardin essentiel" class="header_logo">
+
         </div>
-        <!-- <nav>
-            <ul class="navigation">
-                <li>
-                    <a href="#">Le projet </a>
-                </li>
-                <li>
-                    <a href="#">Agenda</a>
-                </li>
-                <li>
-                    <a href="#">Equipe</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">blog</a>
-                </li>
-            </ul>
-        </nav> -->
+
 
 
         <div class="header__text-box">
@@ -95,15 +106,12 @@
 
                 <!--END DIV-->
             </div>
-
         </section>
 
         <section class="section-gardener">
-            <div class="row">
-                <div class="col-1-of-3"></div>
-                <div class="col-2-of-3">
-                    <h2 class="heading-sec4ondary">Les jardiniers volontaires</h2>
-                </div>
+            <div class="gardenertitle">
+                <h2 class="heading-secondary-color">Les jardiniers volontaires</h2>
+            </div>
             </div>
 
             <!--FLEX-->
@@ -111,7 +119,8 @@
                 <div class="section-gardener-box">
                     <img class="section-gardener_portrait" src="img/stef.jpg" alt="portrait">
                     <article>
-                        <p class="section-gardener-interv_text">J'aime les plantes aromatiques pour leurs vertues et leurs arômes</p>
+                        <h3 class="section-gardener-title"> &quot;J'aime les plantes aromatiques pour leurs vertues et leurs arômes &quot;</h3>
+                        <p class="section-gardener-interv_text">Je soigne les bosquets dans le respect des autres plantes, des plantes médicinales</p>
                     </article>
                 </div>
 
@@ -128,37 +137,36 @@
                         <p class="section-gardener-interv_text">J'aime les plantes aromatiques pour leurs vertues et leurs arômes</p>
                     </article>
                 </div>
+            </div>
+        </section>
 
+        <section class="section-participate">
+            <a href="#" class="btn-green text">je particicipe</a>
+        </section>
 
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="footer-logo">
+                    <img src="img/JE_Logo.jpg" alt="logo">
+
+                </div>
+            </div>
+
+            <div class="col-2-of-3">
+                <i class="fab fa-facebook-f fa-5x"></i>
+                <i class="fab fa-instagram fa-5x"></i>
 
             </div>
 
-        </section>
+    </footer>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
 
 </body>
 

@@ -1,16 +1,44 @@
 .btn-text:link,
 .btn-text:visited {
-    display: inline-block;
-    color: $color-white;
-    font-size: $default-font-size;
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    margin-top: 1.2rem;
-}
-
-.btn-text:hover {
+  display: inline-block;
+  color: $color-white;
+  font-size: $default-font-size;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  margin-top: 1.2rem;
+  &:hover {
     display: inline-block;
     color: $color-white;
     font-size: $default-font-size;
     font-weight: 700;
+    background-color: rgba(205, 170, 238, 0.5);
+  }
 }
+
+.btn-green {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-white;
+  background-color: $color-green-light; // padding: 2rem 4rem;
+  width: 25rem;
+  height: 4rem;
+  text-align: center;
+  margin-top: 15rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  &:hover {
+    font-weight: 700;
+    box-shadow: 2px 2px 4px #ffffff;
+  }
+}
+
+// a {
+//     display: block;
+//     width: 400px;
+//     height: 100px;
+//     text-align: center;
+//     margin-top: 15rem;
+//     padding: 1.5rem;
+//     font-size: 1.8rem;
+// }

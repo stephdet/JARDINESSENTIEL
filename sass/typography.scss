@@ -16,6 +16,7 @@ h2,
 h3,
 h4 {
   display: block;
+  margin: 0;
 }
 
 .heading-primary {
@@ -34,25 +35,47 @@ h4 {
   margin-bottom: 0.4rem;
 }
 
-.heading-primary--sub {
-  font-size: 3rem;
-  letter-spacing: 3rem;
-  margin-top: 0.4rem;
-}
-
 .heading-secondary {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
-  display: inline-block;
-  letter-spacing: 0.2rem;
-  margin-bottom: 2rem;
   transition: all 0.2s;
-  color: $color-white;
+}
+
+.heading-secondary--sub {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  margin-top: 1rem;
+  display: inline-block;
 }
 
 .heading-tertiary_white {
   color: $color-white;
   font-size: 2rem;
+}
+
+.gardenertitle {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.heading-secondary-color {
+  color: $color-purple-light;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  display: inline-block;
+}
+
+.section-gardener-title {
+  color: $color-purple-light;
+  font-size: 1.8rem;
+}
+
+/*FONTAWESOME*/
+
+.fab {
+  color: $color-white;
+  padding-left: 1rem;
 }
