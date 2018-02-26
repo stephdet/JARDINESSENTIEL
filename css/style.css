@@ -57,6 +57,16 @@ h4 {
   line-height: 1.6rem;
   display: inline-block; }
 
+.heading-secondary-color-section {
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "EB Garamond", serif;
+  font-weight: 500 italic;
+  line-height: 1.6rem;
+  padding-top: 2rem;
+  display: inline-block; }
+
 .section-gardener-title {
   color: #9f40f7;
   font-size: 1.8rem; }
@@ -104,12 +114,25 @@ h4 {
     font-weight: 700;
     background-color: rgba(205, 170, 238, 0.5); }
 
+.btn-white_text:link,
+.btn-white_text:link:visited {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  margin-top: 1.2rem; }
+  .btn-white_text:link:hover,
+  .btn-white_text:link:visited:hover {
+    display: inline-block;
+    color: #fff; }
+
 .btn-green {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  background-color: #34e009;
+  background-color: #219653;
   width: 25rem;
   height: 4rem;
   text-align: center;
@@ -118,7 +141,11 @@ h4 {
   font-size: 1.8rem; }
   .btn-green:hover {
     font-weight: 700;
+    background-color: #34e009;
     box-shadow: 2px 2px 4px #ffffff; }
+
+.navigation_checkbox {
+  display: none; }
 
 .navigation_button {
   background-color: #fff;
@@ -128,7 +155,10 @@ h4 {
   top: 6rem;
   right: 6rem;
   border-radius: 50%;
-  z-index: 2000; }
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer; }
 
 .navigation_background {
   height: 6rem;
@@ -137,9 +167,9 @@ h4 {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-color: #219653;
+  background-image: radial-gradient(#34e009, #219653);
   z-index: 1000;
-  transform: scale(50); }
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
 
 .navigation__nav {
   height: 100vh;
@@ -147,7 +177,8 @@ h4 {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1500; }
+  z-index: 1500;
+  opacity: 0; }
 
 .navigation__list {
   position: absolute;
@@ -156,6 +187,35 @@ h4 {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center; }
+
+.navigation__item {
+  margin: 1rem; }
+
+.navigation__link:link, .navigation__link:visited {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+  background-size: 220%;
+  transition: all 0.4s; }
+  .navigation__link:link span, .navigation__link:visited span {
+    margin-right: 1rem;
+    display: inline-block; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  color: #34e009;
+  transform: translateX(1rem); }
+
+.navigation_checkbox:checked ~ .navigation_background {
+  transform: scale(80); }
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%; }
 
 *,
 *::after,
@@ -253,6 +313,14 @@ main {
   min-height: 75vh;
   display: flex;
   justify-content: center; }
+
+.recipe {
+  background-color: #219653;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh; }
 
 /*FOOTER*/
 .footer {
