@@ -1,92 +1,90 @@
-.paragraph {
-  font-size: $default-font-size;
-  color: $color-grey-dark;
-  &:not(:last-child) {
-    margin-bottom: 3rem;
-  }
-}
+    .paragraph {
+        font-size: $default-font-size;
+        color: $color-grey-dark;
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
 
-.feature-box__text {
-  font-size: $default-font-size;
-  color: $color-white;
-}
+    .feature-box__text {
+        font-size: $default-font-size;
+        color: $color-white;
+    }
 
-h1,
-h2,
-h3,
-h4 {
-  display: block;
-  margin: 0;
-}
+    h1,
+    h2,
+    h3,
+    h4 {
+        display: block;
+        margin: 0;
+    }
 
-.heading-primary {
-  text-transform: uppercase;
-  color: $color-white;
-  margin-bottom: 6rem;
-  margin-top: 100vh;
-}
+    .heading-primary {
+        text-transform: uppercase;
+        color: $color-white;
+        margin-bottom: 6rem;
+        margin-top: 100vh;
+    }
 
-.heading-primary--main {
-  display: block;
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  letter-spacing: 3rem;
-  margin-bottom: 0.4rem;
-}
+    .heading-primary--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 3rem;
+        margin-bottom: 0.4rem;
+    }
 
-.heading-secondary {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-  transition: all 0.2s;
-}
+    .heading-secondary {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+        transition: all 0.2s;
+    }
 
-.heading-secondary--sub {
-  font-size: 3rem;
-  letter-spacing: 0.5rem;
-  margin-top: 1rem;
-  display: inline-block;
-}
+    .heading-secondary--sub {
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        margin-top: 1rem;
+        display: inline-block;
+    }
 
-.heading-tertiary_white {
-  color: $color-white;
-  font-size: 2rem;
-}
+    .heading-tertiary_white {
+        color: $color-white;
+        font-size: 2rem;
+    }
 
-.gardenertitle {
-  text-align: center;
-  vertical-align: middle;
-}
+    .gardenertitle {
+        text-align: center;
+        vertical-align: middle;
+    }
 
-.heading-secondary-color {
-  color: $color-purple-light;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  line-height: 1.6rem;
-  display: inline-block;
-}
+    .heading-secondary-color {
+        color: $color-purple-light;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        line-height: 1.6rem;
+        display: inline-block;
+    }
 
-.heading-secondary-color-section {
-  color: $color-white;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-family: "EB Garamond", serif;
-  font-weight: 500 italic;
-  line-height: 1.6rem;
-  padding-top: 2rem;
-  display: inline-block;
-}
+    .heading-secondary-color-section {
+        color: $color-white;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: "EB Garamond", serif;
+        font-weight: 500;
+        line-height: 1.6rem;
+        display: inline-block;
+    }
 
-.section-gardener-title {
-  color: $color-purple-light;
-  font-size: 1.8rem;
-}
+    .section-gardener-title {
+        color: $color-purple-light;
+        font-size: 1.8rem;
+    }
+    /*FONTAWESOME*/
 
-/*FONTAWESOME*/
-
-.fab {
-  color: $color-white;
-  padding-left: 1rem;
-}
+    .fab {
+        color: $color-white;
+        padding-left: 1rem;
+    }
