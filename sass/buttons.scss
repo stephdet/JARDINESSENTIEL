@@ -16,17 +16,23 @@
 }
 
 .btn-white_text:link,
-.btn-white_text:link:visited {
+.btn-white_text:visited {
     display: inline-block;
     color: $color-white;
-    font-size: $default-font-size;
+    font-size: 1.8rem;
+    line-height: 1.6em;
+    text-transform: uppercase;
     text-decoration: none;
-    width: 20%;
+    text-align: center;
+    width: 25rem;
+    height: 4rem;
     border: 1px solid #ffffff;
     margin-top: 1.2rem;
     &:hover {
         display: inline-block;
+        font-weight: 700;
         color: $color-white;
+        border: 2px solid #ffffff;
     }
 }
 
@@ -42,19 +48,9 @@
     margin-top: 15rem;
     padding: 1.5rem;
     font-size: 1.8rem;
+    line-height: 1.6rem;
     &:hover {
         font-weight: 700;
         background-color: $color-green-light;
-        box-shadow: 2px 2px 4px #ffffff;
     }
 }
-
-// a {
-//     display: block;
-//     width: 400px;
-//     height: 100px;
-//     text-align: center;
-//     margin-top: 15rem;
-//     padding: 1.5rem;
-//     font-size: 1.8rem;
-// }

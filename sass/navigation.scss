@@ -105,21 +105,21 @@
                     top: .8rem;
                 }
             }
-            &__button:hover &__icon::before {
+            &_button:hover &__icon::before {
                 top: -1rem;
             }
-            &__button:hover &__icon::after {
+            &_button:hover &__icon::after {
                 top: 1rem;
             }
-            &__checkbox:checked+&__button &__icon {
+            &_checkbox:checked+&_button &__icon {
                 background-color: transparent;
             }
-            &__checkbox:checked+&__button &__icon::before {
+            &_checkbox:checked+&_button &__icon::before {
                 top: 0;
-                transform: rotate(135deg);
+                transform: rotate(45deg);
             }
-            &__checkbox:checked+&__button &__icon::after {
+            &_checkbox:checked+&_button &__icon::after {
                 top: 0;
-                transform: rotate(-135deg);
+                transform: rotate(-45deg);
             }
         }

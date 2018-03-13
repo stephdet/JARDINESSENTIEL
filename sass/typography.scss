@@ -61,6 +61,7 @@
     }
 
     .heading-secondary-color {
+        margin-top: 1rem;
         color: $color-purple-light;
         font-size: 2.5rem;
         text-transform: uppercase;
@@ -69,22 +70,34 @@
     }
 
     .heading-secondary-color-section {
+        margin-top: 1rem;
         color: $color-white;
         font-size: 2.5rem;
         text-transform: uppercase;
-        font-family: "EB Garamond", serif;
         font-weight: 500;
-        line-height: 1.6rem;
-        display: inline-block;
+        line-height: 1.6rem; //display: inline-block; met sur une ligne
     }
 
     .section-gardener-title {
-        color: $color-purple-light;
+        color: #163008;
         font-size: 1.8rem;
+        font-family: 'Pridi', serif;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    p.section-gardener-interv_text {
+        display: block;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        color: #163008;
+        font-size: 1rem;
     }
     /*FONTAWESOME*/
 
     .fab {
         color: $color-white;
-        padding-left: 1rem;
+        padding-left: 1.3rem;
     }
