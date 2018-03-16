@@ -12,6 +12,7 @@ Une enquete a été réalisé sur le terrain avec les jardiniers volontaires. Il
 L'équipe a étudié les besoins et les objectifs pour une meilleure expérience utilisateur.
 
 __personna__ 
+
 - être informé sur les activités du jardin
 - être informé de ses ateliers ttuithgd
 - être informé en deux langues 
@@ -21,7 +22,7 @@ __personna__
 #### Etude UI
 Recherche de pattern, adoption d'un design épuré (materialise design)
 J'ai réalisé des maquettes dans Figma
-![GitHub Logo](img/)
+![GitHub img](img/Desktop HD.png)
 
 
 
