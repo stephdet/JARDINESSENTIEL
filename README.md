@@ -22,7 +22,6 @@ __personna__
 #### Etude UI
 Recherche de pattern, adoption d'un design épuré (materialise design)
 J'ai réalisé des maquettes dans Figma
-![GitHub img](UIDESIGN/Desktop HD.png)
 
 
 
