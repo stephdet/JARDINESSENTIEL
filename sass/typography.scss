@@ -24,15 +24,17 @@
         color: $color-white;
         margin-bottom: 6rem;
         margin-top: 100vh;
-    }
-
-    .heading-primary--main {
-        display: block;
-        font-size: 4rem;
-        font-weight: 500;
-        line-height: 1.5rem;
-        letter-spacing: 3rem;
-        margin-bottom: 0.4rem;
+        &--main {
+            display: block;
+            font-size: 4rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+            letter-spacing: 3rem;
+            margin-bottom: 0.4rem;
+            animation-name: moveInLeft;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
     }
 
     .heading-secondary {

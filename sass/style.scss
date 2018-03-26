@@ -4,6 +4,7 @@
 @import "grille";
 @import "buttons";
 @import "navigation";
+@import "animation";
 *,
 *::after,
 *::before {
@@ -149,6 +150,40 @@ main {
     background-position: top;
     position: relative;
     margin: 0 auto;
+}
+
+
+/*POPUP*/
+
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba($color-black, .8);
+    &__content {
+        @include absCenter;
+        width: 75%;
+        height: 50 rem;
+        background-color: $color-white;
+        box-shadow: 0 2rem 4rem rgba($color-black, .2);
+        border-radius: 3px;
+        display: table;
+    }
+    &__left {
+        width: 33, 3333333%;
+        display: table-cell;
+    }
+    &__right {
+        width: 66, 6666666%;
+        display: table-cell;
+    }
+    &__img {
+        width: 100%;
+        display: block;
+    }
 }
 
 
