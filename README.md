@@ -21,10 +21,7 @@ __personna__
 
 #### Etude UI
 Recherche de pattern, adoption d'un design épuré (materialise design)
-J'ai réalisé des maquettes dans Figma
-<<<<<<< HEAD
-=======
+J'ai réalisé des maquettes dans Figma 
 
-
-
->>>>>>> 869f6cac1380bfc7335a4dd966d09e7f09db0b3b
+### Front-End
+Travailles avec la logique BEM et SASS 
